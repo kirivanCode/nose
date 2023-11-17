@@ -1,0 +1,51 @@
+/* AboutUsPage.css */
+
+.about-us-container {
+  --primary-color: #007bff;
+  --border-radius: 8px;
+  --content-margin: 20px;
+}
+
+.about-us-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.about-us-header {
+  font-size: 30px;
+  color: var(--primary-color);
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.about-us-image {
+  width: 50%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-content {
+  margin-top: 20px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.lema-container {
+  margin: var(--content-margin);
+  margin-top: calc(var(--content-margin) * 3);
+  padding: var(--content-margin);
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .about-us-image {
+    width: 100%;
+  }
+}
+

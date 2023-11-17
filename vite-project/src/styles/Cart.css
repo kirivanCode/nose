@@ -1,0 +1,91 @@
+/* Estilos generales para el carrito */
+.cart-container {
+  margin: 20px;
+  margin-top: 60px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.item-details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Estilos para los botones en el carrito */
+button {
+  margin: 5px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-self: flex-end; /* Alinea los botones al final de la tarjeta */
+}
+
+button:hover {
+  background-color: #c82333;
+}
+
+/* Estilos para la imagen de cada producto en el carrito */
+.cart-item img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos específicos para la cantidad de productos */
+.cart-item-quantity {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 16px; /* Tamaño de fuente más grande */
+}
+
+/* Estilos específicos para el total del carrito */
+.cart-total {
+  font-size: 20px; /* Tamaño de fuente más grande */
+  font-weight: bold;
+}
+
+/* Estilos para el nombre del producto en el carrito */
+.cart-item span {
+  margin-bottom: 5px;
+}
+
+h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  color: #007bff; /* Color azul para resaltar la cabecera */
+}
+/* Estilos para el contenedor del total con fondo azul */
+.total-container {
+  background-color: #007bff; /* Color azul */
+  padding: 10px; /* Ajusta según sea necesario */
+  border-radius: 8px; /* Bordes redondeados */
+  color: #fff; /* Texto en color blanco */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

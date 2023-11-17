@@ -1,0 +1,212 @@
+/* Home.css */
+
+/* Estilos generales */
+.home-container {
+  max-width: auto;
+  margin: 0 auto;
+  margin-top: 60px;
+  font-family: 'Arial', sans-serif;
+  color: #000000;
+}
+
+/* Estilos para secciones */
+section {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+/* Estilos para títulos */
+h2 {
+  color: #007bff;
+}
+
+/* Estilos para párrafos */
+p {
+  line-height: 1.6;
+}
+
+/* Estilos para tarjetas de productos/testimonios */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 12px; 
+  overflow: hidden; 
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s, transform 0.3s ease-in-out;
+}
+
+.testimonial{
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden; 
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.product-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+/* Estilos para enlaces */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+
+/* Estilos para las tarjetas de productos destacados y testimonios */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 12px; 
+  overflow: hidden; 
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s, transform 0.3s ease-in-out;
+}
+
+
+/* Estilos para el slider */
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-img {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-slide img {
+  max-width: 100%; /* Ajusta el tamaño máximo al 100% del contenedor */
+  height: 500px; /* Mantiene la proporción original de la imagen */
+}
+
+.slick-track { 
+  max-width: auto;
+  height: auto;
+}
+
+/* Estilos para la sección de ofertas especiales */
+.special-offers-section {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 18px; /* Ajusta el tamaño del texto según tu preferencia */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+}
+
+.icons{
+  width: 25px; /* Ajusta el ancho del icono según tu preferencia */
+  height: 25px;
+}
+
+
+.product-card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+/* Estilos para imágenes en las tarjetas de productos */
+.product-card img {
+  width: 100%; /* La imagen ocupa todo el ancho de la tarjeta */
+  height: auto;
+  border-radius: 12px; /* Bordes redondeados para la imagen */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Estilos para información del producto en las tarjetas */
+.product-card h3 {
+  color: #007bff; /* Color azul para el nombre del producto */
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  color: #333; /* Color de texto oscuro */
+  line-height: 1.4;
+}
+
+/* Estilos para la sección de productos destacados */
+.featured-products-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Distribuye los elementos uniformemente */
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+/* Estilos para el encabezado de productos destacados */
+.featured-product-header {
+  text-align: center; /* Centra el texto horizontalmente */
+  margin-bottom: 20px; /* Espacio entre el encabezado y las tarjetas de productos */
+  width: 100%; /* Asegura que el encabezado ocupe todo el ancho */
+}
+
+.offer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.offer-h2 {
+  border-bottom: none;
+  margin-right: 5px;
+}
+
+.welcome-text {
+  margin-top: 30px;
+}
+
+.featured-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.featured-h2 {
+  border-bottom: none;
+  margin-right: 5px;
+}
+/* Estilos para las flechas del slider */
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next {
+  color: #007bff; /* Color de las flechas */
+}
+
+.slick-arrow.slick-prev:hover,
+.slick-arrow.slick-next:hover {
+  color: #0056b3; /* Cambia el color al pasar el mouse sobre las flechas */
+}
+
+/* Opcional: Ajusta la posición de las flechas según sea necesario */
+.slick-arrow.slick-prev {
+  left: 40px;
+  z-index: 1000;
+}
+
+.slick-arrow.slick-next {
+  right: 40px;
+  z-index: 1000;
+}
